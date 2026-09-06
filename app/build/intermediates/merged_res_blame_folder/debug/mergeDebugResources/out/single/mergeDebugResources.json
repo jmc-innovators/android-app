@@ -1,0 +1,74 @@
+[
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.9\\com.jmcinnovators.app-debug-33:\\xml_network_security_config.xml.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.9\\com.jmcinnovators.app-main-35:\\xml\\network_security_config.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.9\\com.jmcinnovators.app-debug-33:\\layout_activity_splash.xml.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.9\\com.jmcinnovators.app-main-35:\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "com.jmcinnovators.app-debug-33:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.jmcinnovators.app-main-35:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.9\\com.jmcinnovators.app-debug-33:\\drawable_ic_home.xml.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.9\\com.jmcinnovators.app-main-35:\\drawable\\ic_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.9\\com.jmcinnovators.app-debug-33:\\color_bottom_nav_color_state.xml.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.9\\com.jmcinnovators.app-main-35:\\color\\bottom_nav_color_state.xml"
+    },
+    {
+        "merged": "com.jmcinnovators.app-debug-33:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.jmcinnovators.app-main-35:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.jmcinnovators.app-debug-33:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.jmcinnovators.app-main-35:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.9\\com.jmcinnovators.app-debug-33:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.9\\com.jmcinnovators.app-main-35:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.9\\com.jmcinnovators.app-debug-33:\\drawable_splash_logo.xml.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.9\\com.jmcinnovators.app-main-35:\\drawable\\splash_logo.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.9\\com.jmcinnovators.app-debug-33:\\xml_file_paths.xml.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.9\\com.jmcinnovators.app-main-35:\\xml\\file_paths.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.9\\com.jmcinnovators.app-debug-33:\\drawable_ic_offline.xml.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.9\\com.jmcinnovators.app-main-35:\\drawable\\ic_offline.xml"
+    },
+    {
+        "merged": "com.jmcinnovators.app-debug-33:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.jmcinnovators.app-main-35:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.9\\com.jmcinnovators.app-debug-33:\\menu_bottom_nav_menu.xml.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.9\\com.jmcinnovators.app-main-35:\\menu\\bottom_nav_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.9\\com.jmcinnovators.app-debug-33:\\drawable_ic_exam.xml.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.9\\com.jmcinnovators.app-main-35:\\drawable\\ic_exam.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.9\\com.jmcinnovators.app-debug-33:\\drawable_ic_dashboard.xml.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.9\\com.jmcinnovators.app-main-35:\\drawable\\ic_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.9\\com.jmcinnovators.app-debug-33:\\drawable_ic_tools.xml.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.9\\com.jmcinnovators.app-main-35:\\drawable\\ic_tools.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.9\\com.jmcinnovators.app-debug-33:\\drawable_progress_bar_custom.xml.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.9\\com.jmcinnovators.app-main-35:\\drawable\\progress_bar_custom.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.9\\com.jmcinnovators.app-debug-33:\\drawable_ic_classroom.xml.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.9\\com.jmcinnovators.app-main-35:\\drawable\\ic_classroom.xml"
+    }
+]

@@ -1,0 +1,10 @@
+#Sat Sep 05 18:11:43 IST 2026
+base.2=E\:\\my websites\\JMC Innovators Learning Platform\\JMC ANDROID APP\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\10\\classes.dex
+path.2=10/classes.dex
+base.1=E\:\\my websites\\JMC Innovators Learning Platform\\JMC ANDROID APP\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+path.1=0/classes.dex
+base.0=E\:\\my websites\\JMC Innovators Learning Platform\\JMC ANDROID APP\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+path.0=classes.dex

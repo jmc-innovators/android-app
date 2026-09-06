@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.JMCInnovators" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/gold</item>
+        <item name="colorOnPrimary">#1a1200</item>
+        <item name="colorSecondary">@color/blue</item>
+        <item name="android:statusBarColor">@color/bg_main</item>
+        <item name="android:navigationBarColor">@color/panel_bg</item>
+        <item name="android:windowBackground">@color/bg_main</item>
+    </style>
+
+    <style name="Theme.JMCInnovators.Splash" parent="Theme.JMCInnovators">
+        <item name="android:statusBarColor">@color/bg_main</item>
+        <item name="android:navigationBarColor">@color/bg_main</item>
+        <item name="android:windowBackground">@color/bg_main</item>
+    </style>
+</resources>

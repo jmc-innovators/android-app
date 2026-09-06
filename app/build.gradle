@@ -1,0 +1,63 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.jmcinnovators.app'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.jmcinnovators.app"
+        minSdk 24
+        targetSdk 34
+        versionCode 1
+        versionName "1.0.0"
+    }
+
+    signingConfigs {
+        release {
+            if (project.hasProperty('JMC_RELEASE_STORE_FILE')) {
+                storeFile file(project.property('JMC_RELEASE_STORE_FILE'))
+                storePassword project.property('JMC_RELEASE_STORE_PASSWORD')
+                keyAlias project.property('JMC_RELEASE_KEY_ALIAS')
+                keyPassword project.property('JMC_RELEASE_KEY_PASSWORD')
+            } else {
+                storeFile file("../jmc_release.jks")
+                storePassword "JMCInnovators@2026"
+                keyAlias "jmc_release_key"
+                keyPassword "JMCInnovators@2026"
+            }
+            v1SigningEnabled true
+            v2SigningEnabled true
+            v3SigningEnabled true
+            v4SigningEnabled false
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            signingConfig signingConfigs.release
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            debuggable true
+            signingConfig signingConfigs.release
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}
+
+dependencies {
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.11.0'
+    implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.1.0'
+    implementation 'androidx.webkit:webkit:1.11.0'
+    implementation 'androidx.core:core:1.13.1'
+    implementation 'androidx.activity:activity:1.8.2'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+}

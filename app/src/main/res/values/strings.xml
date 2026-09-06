@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">JMC Innovators</string>
+    <string name="title_home">Home</string>
+    <string name="title_classroom">Classroom</string>
+    <string name="title_exams">Exams</string>
+    <string name="title_tools">Tools</string>
+    <string name="title_dashboard">Dashboard</string>
+</resources>

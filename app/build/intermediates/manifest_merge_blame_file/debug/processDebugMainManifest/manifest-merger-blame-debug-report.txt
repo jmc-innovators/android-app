@@ -1,0 +1,212 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.jmcinnovators.app"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->E:\my websites\JMC Innovators Learning Platform\JMC ANDROID APP\app\src\main\AndroidManifest.xml:5:5-67
+11-->E:\my websites\JMC Innovators Learning Platform\JMC ANDROID APP\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->E:\my websites\JMC Innovators Learning Platform\JMC ANDROID APP\app\src\main\AndroidManifest.xml:6:5-79
+12-->E:\my websites\JMC Innovators Learning Platform\JMC ANDROID APP\app\src\main\AndroidManifest.xml:6:22-76
+13    <uses-permission
+13-->E:\my websites\JMC Innovators Learning Platform\JMC ANDROID APP\app\src\main\AndroidManifest.xml:7:5-9:40
+14        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+14-->E:\my websites\JMC Innovators Learning Platform\JMC ANDROID APP\app\src\main\AndroidManifest.xml:7:22-78
+15        android:maxSdkVersion="28" />
+15-->E:\my websites\JMC Innovators Learning Platform\JMC ANDROID APP\app\src\main\AndroidManifest.xml:8:9-35
+16    <uses-permission
+16-->E:\my websites\JMC Innovators Learning Platform\JMC ANDROID APP\app\src\main\AndroidManifest.xml:10:5-11:38
+17        android:name="android.permission.READ_EXTERNAL_STORAGE"
+17-->E:\my websites\JMC Innovators Learning Platform\JMC ANDROID APP\app\src\main\AndroidManifest.xml:10:22-77
+18        android:maxSdkVersion="32" />
+18-->E:\my websites\JMC Innovators Learning Platform\JMC ANDROID APP\app\src\main\AndroidManifest.xml:11:9-35
+19    <uses-permission android:name="android.permission.CAMERA" />
+19-->E:\my websites\JMC Innovators Learning Platform\JMC ANDROID APP\app\src\main\AndroidManifest.xml:12:5-65
+19-->E:\my websites\JMC Innovators Learning Platform\JMC ANDROID APP\app\src\main\AndroidManifest.xml:12:22-62
+20
+21    <permission
+21-->[androidx.core:core:1.13.1] C:\Users\USER\.gradle\caches\8.9\transforms\b9c6732e9686f31a9de388ec506b57b7\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+22        android:name="com.jmcinnovators.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+22-->[androidx.core:core:1.13.1] C:\Users\USER\.gradle\caches\8.9\transforms\b9c6732e9686f31a9de388ec506b57b7\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+23        android:protectionLevel="signature" />
+23-->[androidx.core:core:1.13.1] C:\Users\USER\.gradle\caches\8.9\transforms\b9c6732e9686f31a9de388ec506b57b7\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+24
+25    <uses-permission android:name="com.jmcinnovators.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+25-->[androidx.core:core:1.13.1] C:\Users\USER\.gradle\caches\8.9\transforms\b9c6732e9686f31a9de388ec506b57b7\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+25-->[androidx.core:core:1.13.1] C:\Users\USER\.gradle\caches\8.9\transforms\b9c6732e9686f31a9de388ec506b57b7\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+26
+27    <application
+27-->E:\my websites\JMC Innovators Learning Platform\JMC ANDROID APP\app\src\main\AndroidManifest.xml:14:5-65:19
+28        android:allowBackup="true"
+28-->E:\my websites\JMC Innovators Learning Platform\JMC ANDROID APP\app\src\main\AndroidManifest.xml:15:9-35
+29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+29-->[androidx.core:core:1.13.1] C:\Users\USER\.gradle\caches\8.9\transforms\b9c6732e9686f31a9de388ec506b57b7\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+30        android:debuggable="true"
+31        android:extractNativeLibs="false"
+32        android:icon="@mipmap/ic_launcher"
+32-->E:\my websites\JMC Innovators Learning Platform\JMC ANDROID APP\app\src\main\AndroidManifest.xml:16:9-43
+33        android:label="@string/app_name"
+33-->E:\my websites\JMC Innovators Learning Platform\JMC ANDROID APP\app\src\main\AndroidManifest.xml:18:9-41
+34        android:networkSecurityConfig="@xml/network_security_config"
+34-->E:\my websites\JMC Innovators Learning Platform\JMC ANDROID APP\app\src\main\AndroidManifest.xml:22:9-69
+35        android:roundIcon="@mipmap/ic_launcher_round"
+35-->E:\my websites\JMC Innovators Learning Platform\JMC ANDROID APP\app\src\main\AndroidManifest.xml:17:9-54
+36        android:supportsRtl="true"
+36-->E:\my websites\JMC Innovators Learning Platform\JMC ANDROID APP\app\src\main\AndroidManifest.xml:19:9-35
+37        android:theme="@style/Theme.JMCInnovators"
+37-->E:\my websites\JMC Innovators Learning Platform\JMC ANDROID APP\app\src\main\AndroidManifest.xml:20:9-51
+38        android:usesCleartextTraffic="false" >
+38-->E:\my websites\JMC Innovators Learning Platform\JMC ANDROID APP\app\src\main\AndroidManifest.xml:21:9-45
+39
+40        <!-- Splash Screen (Launcher) -->
+41        <activity
+41-->E:\my websites\JMC Innovators Learning Platform\JMC ANDROID APP\app\src\main\AndroidManifest.xml:26:9-35:20
+42            android:name="com.jmcinnovators.app.SplashActivity"
+42-->E:\my websites\JMC Innovators Learning Platform\JMC ANDROID APP\app\src\main\AndroidManifest.xml:27:13-43
+43            android:exported="true"
+43-->E:\my websites\JMC Innovators Learning Platform\JMC ANDROID APP\app\src\main\AndroidManifest.xml:28:13-36
+44            android:screenOrientation="portrait"
+44-->E:\my websites\JMC Innovators Learning Platform\JMC ANDROID APP\app\src\main\AndroidManifest.xml:30:13-49
+45            android:theme="@style/Theme.JMCInnovators.Splash" >
+45-->E:\my websites\JMC Innovators Learning Platform\JMC ANDROID APP\app\src\main\AndroidManifest.xml:29:13-62
+46            <intent-filter>
+46-->E:\my websites\JMC Innovators Learning Platform\JMC ANDROID APP\app\src\main\AndroidManifest.xml:31:13-34:29
+47                <action android:name="android.intent.action.MAIN" />
+47-->E:\my websites\JMC Innovators Learning Platform\JMC ANDROID APP\app\src\main\AndroidManifest.xml:32:17-69
+47-->E:\my websites\JMC Innovators Learning Platform\JMC ANDROID APP\app\src\main\AndroidManifest.xml:32:25-66
+48
+49                <category android:name="android.intent.category.LAUNCHER" />
+49-->E:\my websites\JMC Innovators Learning Platform\JMC ANDROID APP\app\src\main\AndroidManifest.xml:33:17-77
+49-->E:\my websites\JMC Innovators Learning Platform\JMC ANDROID APP\app\src\main\AndroidManifest.xml:33:27-74
+50            </intent-filter>
+51        </activity>
+52
+53        <!-- Main WebView Activity -->
+54        <activity
+54-->E:\my websites\JMC Innovators Learning Platform\JMC ANDROID APP\app\src\main\AndroidManifest.xml:38:9-52:20
+55            android:name="com.jmcinnovators.app.MainActivity"
+55-->E:\my websites\JMC Innovators Learning Platform\JMC ANDROID APP\app\src\main\AndroidManifest.xml:39:13-41
+56            android:configChanges="orientation|screenSize|keyboardHidden"
+56-->E:\my websites\JMC Innovators Learning Platform\JMC ANDROID APP\app\src\main\AndroidManifest.xml:42:13-74
+57            android:exported="true"
+57-->E:\my websites\JMC Innovators Learning Platform\JMC ANDROID APP\app\src\main\AndroidManifest.xml:40:13-36
+58            android:launchMode="singleTask"
+58-->E:\my websites\JMC Innovators Learning Platform\JMC ANDROID APP\app\src\main\AndroidManifest.xml:41:13-44
+59            android:screenOrientation="portrait" >
+59-->E:\my websites\JMC Innovators Learning Platform\JMC ANDROID APP\app\src\main\AndroidManifest.xml:43:13-49
+60
+61            <!-- Deep links for the website -->
+62            <intent-filter android:autoVerify="true" >
+62-->E:\my websites\JMC Innovators Learning Platform\JMC ANDROID APP\app\src\main\AndroidManifest.xml:46:13-51:29
+62-->E:\my websites\JMC Innovators Learning Platform\JMC ANDROID APP\app\src\main\AndroidManifest.xml:46:28-53
+63                <action android:name="android.intent.action.VIEW" />
+63-->E:\my websites\JMC Innovators Learning Platform\JMC ANDROID APP\app\src\main\AndroidManifest.xml:47:17-69
+63-->E:\my websites\JMC Innovators Learning Platform\JMC ANDROID APP\app\src\main\AndroidManifest.xml:47:25-66
+64
+65                <category android:name="android.intent.category.DEFAULT" />
+65-->E:\my websites\JMC Innovators Learning Platform\JMC ANDROID APP\app\src\main\AndroidManifest.xml:48:17-76
+65-->E:\my websites\JMC Innovators Learning Platform\JMC ANDROID APP\app\src\main\AndroidManifest.xml:48:27-73
+66                <category android:name="android.intent.category.BROWSABLE" />
+66-->E:\my websites\JMC Innovators Learning Platform\JMC ANDROID APP\app\src\main\AndroidManifest.xml:49:17-78
+66-->E:\my websites\JMC Innovators Learning Platform\JMC ANDROID APP\app\src\main\AndroidManifest.xml:49:27-75
+67
+68                <data
+68-->E:\my websites\JMC Innovators Learning Platform\JMC ANDROID APP\app\src\main\AndroidManifest.xml:50:17-89
+69                    android:host="jmcinnovators.netlify.app"
+69-->E:\my websites\JMC Innovators Learning Platform\JMC ANDROID APP\app\src\main\AndroidManifest.xml:50:46-86
+70                    android:scheme="https" />
+70-->E:\my websites\JMC Innovators Learning Platform\JMC ANDROID APP\app\src\main\AndroidManifest.xml:50:23-45
+71            </intent-filter>
+72        </activity>
+73
+74        <!-- File download provider -->
+75        <provider
+76            android:name="androidx.core.content.FileProvider"
+76-->E:\my websites\JMC Innovators Learning Platform\JMC ANDROID APP\app\src\main\AndroidManifest.xml:56:13-62
+77            android:authorities="com.jmcinnovators.app.fileprovider"
+77-->E:\my websites\JMC Innovators Learning Platform\JMC ANDROID APP\app\src\main\AndroidManifest.xml:57:13-64
+78            android:exported="false"
+78-->E:\my websites\JMC Innovators Learning Platform\JMC ANDROID APP\app\src\main\AndroidManifest.xml:58:13-37
+79            android:grantUriPermissions="true" >
+79-->E:\my websites\JMC Innovators Learning Platform\JMC ANDROID APP\app\src\main\AndroidManifest.xml:59:13-47
+80            <meta-data
+80-->E:\my websites\JMC Innovators Learning Platform\JMC ANDROID APP\app\src\main\AndroidManifest.xml:60:13-62:54
+81                android:name="android.support.FILE_PROVIDER_PATHS"
+81-->E:\my websites\JMC Innovators Learning Platform\JMC ANDROID APP\app\src\main\AndroidManifest.xml:61:17-67
+82                android:resource="@xml/file_paths" />
+82-->E:\my websites\JMC Innovators Learning Platform\JMC ANDROID APP\app\src\main\AndroidManifest.xml:62:17-51
+83        </provider>
+84        <provider
+84-->[androidx.emoji2:emoji2:1.2.0] C:\Users\USER\.gradle\caches\8.9\transforms\b7a52a504a3a30fee628be60a7a40331\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+85            android:name="androidx.startup.InitializationProvider"
+85-->[androidx.emoji2:emoji2:1.2.0] C:\Users\USER\.gradle\caches\8.9\transforms\b7a52a504a3a30fee628be60a7a40331\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+86            android:authorities="com.jmcinnovators.app.androidx-startup"
+86-->[androidx.emoji2:emoji2:1.2.0] C:\Users\USER\.gradle\caches\8.9\transforms\b7a52a504a3a30fee628be60a7a40331\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+87            android:exported="false" >
+87-->[androidx.emoji2:emoji2:1.2.0] C:\Users\USER\.gradle\caches\8.9\transforms\b7a52a504a3a30fee628be60a7a40331\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+88            <meta-data
+88-->[androidx.emoji2:emoji2:1.2.0] C:\Users\USER\.gradle\caches\8.9\transforms\b7a52a504a3a30fee628be60a7a40331\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+89                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+89-->[androidx.emoji2:emoji2:1.2.0] C:\Users\USER\.gradle\caches\8.9\transforms\b7a52a504a3a30fee628be60a7a40331\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+90                android:value="androidx.startup" />
+90-->[androidx.emoji2:emoji2:1.2.0] C:\Users\USER\.gradle\caches\8.9\transforms\b7a52a504a3a30fee628be60a7a40331\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+91            <meta-data
+91-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\USER\.gradle\caches\8.9\transforms\5847ab66ef65732d3542afd6d2149bd8\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+92                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+92-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\USER\.gradle\caches\8.9\transforms\5847ab66ef65732d3542afd6d2149bd8\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+93                android:value="androidx.startup" />
+93-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\USER\.gradle\caches\8.9\transforms\5847ab66ef65732d3542afd6d2149bd8\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+94            <meta-data
+94-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\USER\.gradle\caches\8.9\transforms\4cbbd2923b1f35f91199acdcd8277004\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+95                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+95-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\USER\.gradle\caches\8.9\transforms\4cbbd2923b1f35f91199acdcd8277004\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+96                android:value="androidx.startup" />
+96-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\USER\.gradle\caches\8.9\transforms\4cbbd2923b1f35f91199acdcd8277004\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+97        </provider>
+98
+99        <receiver
+99-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\USER\.gradle\caches\8.9\transforms\4cbbd2923b1f35f91199acdcd8277004\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+100            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+100-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\USER\.gradle\caches\8.9\transforms\4cbbd2923b1f35f91199acdcd8277004\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+101            android:directBootAware="false"
+101-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\USER\.gradle\caches\8.9\transforms\4cbbd2923b1f35f91199acdcd8277004\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+102            android:enabled="true"
+102-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\USER\.gradle\caches\8.9\transforms\4cbbd2923b1f35f91199acdcd8277004\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+103            android:exported="true"
+103-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\USER\.gradle\caches\8.9\transforms\4cbbd2923b1f35f91199acdcd8277004\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+104            android:permission="android.permission.DUMP" >
+104-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\USER\.gradle\caches\8.9\transforms\4cbbd2923b1f35f91199acdcd8277004\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+105            <intent-filter>
+105-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\USER\.gradle\caches\8.9\transforms\4cbbd2923b1f35f91199acdcd8277004\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+106                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+106-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\USER\.gradle\caches\8.9\transforms\4cbbd2923b1f35f91199acdcd8277004\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+106-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\USER\.gradle\caches\8.9\transforms\4cbbd2923b1f35f91199acdcd8277004\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+107            </intent-filter>
+108            <intent-filter>
+108-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\USER\.gradle\caches\8.9\transforms\4cbbd2923b1f35f91199acdcd8277004\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+109                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+109-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\USER\.gradle\caches\8.9\transforms\4cbbd2923b1f35f91199acdcd8277004\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+109-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\USER\.gradle\caches\8.9\transforms\4cbbd2923b1f35f91199acdcd8277004\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+110            </intent-filter>
+111            <intent-filter>
+111-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\USER\.gradle\caches\8.9\transforms\4cbbd2923b1f35f91199acdcd8277004\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+112                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+112-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\USER\.gradle\caches\8.9\transforms\4cbbd2923b1f35f91199acdcd8277004\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+112-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\USER\.gradle\caches\8.9\transforms\4cbbd2923b1f35f91199acdcd8277004\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+113            </intent-filter>
+114            <intent-filter>
+114-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\USER\.gradle\caches\8.9\transforms\4cbbd2923b1f35f91199acdcd8277004\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+115                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+115-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\USER\.gradle\caches\8.9\transforms\4cbbd2923b1f35f91199acdcd8277004\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+115-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\USER\.gradle\caches\8.9\transforms\4cbbd2923b1f35f91199acdcd8277004\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+116            </intent-filter>
+117        </receiver>
+118    </application>
+119
+120</manifest>

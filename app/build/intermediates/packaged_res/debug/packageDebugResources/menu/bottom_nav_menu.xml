@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_home"
+        android:title="@string/title_home" />
+    <item
+        android:id="@+id/nav_classroom"
+        android:icon="@drawable/ic_classroom"
+        android:title="@string/title_classroom" />
+    <item
+        android:id="@+id/nav_exams"
+        android:icon="@drawable/ic_exam"
+        android:title="@string/title_exams" />
+    <item
+        android:id="@+id/nav_tools"
+        android:icon="@drawable/ic_tools"
+        android:title="@string/title_tools" />
+    <item
+        android:id="@+id/nav_dashboard"
+        android:icon="@drawable/ic_dashboard"
+        android:title="@string/title_dashboard" />
+</menu>

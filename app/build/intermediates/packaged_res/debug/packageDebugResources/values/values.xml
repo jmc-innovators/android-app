@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_main">#05070f</color>
+    <color name="bg_surface">#080b16</color>
+    <color name="blue">#3b82f6</color>
+    <color name="gold">#f2a71b</color>
+    <color name="gold_light">#ffcf6b</color>
+    <color name="indigo">#4f46e5</color>
+    <color name="nav_selected">#f2a71b</color>
+    <color name="nav_unselected">#8891ac</color>
+    <color name="panel_bg">#0e1424</color>
+    <color name="purple">#8b5cf6</color>
+    <color name="text_main">#f3f5fb</color>
+    <color name="text_muted">#8891ac</color>
+    <color name="text_secondary">#c3cadd</color>
+    <string name="app_name">JMC Innovators</string>
+    <string name="title_classroom">Classroom</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_exams">Exams</string>
+    <string name="title_home">Home</string>
+    <string name="title_tools">Tools</string>
+    <style name="Theme.JMCInnovators" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/gold</item>
+        <item name="colorOnPrimary">#1a1200</item>
+        <item name="colorSecondary">@color/blue</item>
+        <item name="android:statusBarColor">@color/bg_main</item>
+        <item name="android:navigationBarColor">@color/panel_bg</item>
+        <item name="android:windowBackground">@color/bg_main</item>
+    </style>
+    <style name="Theme.JMCInnovators.Splash" parent="Theme.JMCInnovators">
+        <item name="android:statusBarColor">@color/bg_main</item>
+        <item name="android:navigationBarColor">@color/bg_main</item>
+        <item name="android:windowBackground">@color/bg_main</item>
+    </style>
+</resources>
