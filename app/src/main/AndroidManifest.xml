@@ -13,6 +13,7 @@
 
     <application
         android:allowBackup="true"
+        android:hardwareAccelerated="true"
         android:icon="@mipmap/ic_launcher"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:label="@string/app_name"
@@ -38,6 +39,7 @@
         <activity
             android:name=".MainActivity"
             android:exported="true"
+            android:hardwareAccelerated="true"
             android:launchMode="singleTask"
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:screenOrientation="portrait">
@@ -47,6 +49,7 @@
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="https" android:host="jmcinnovators.vercel.app" />
                 <data android:scheme="https" android:host="jmcinnovators.netlify.app" />
             </intent-filter>
         </activity>

@@ -1,0 +1,8 @@
+{
+  "name": "JMC Innovators",
+  "description": "Android application for JMC Innovators educational platform with WebView integration",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
